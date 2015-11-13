@@ -1,0 +1,16 @@
+Source: udoo-web-docs-neo
+Section: utils
+Priority: optional
+Maintainer: Ettore Chimenti <ek5.chimenti@gmail.com>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.5
+Homepage: http://www.udoo.org
+Vcs-Browser: https://github.com/UDOOboard/neo-docs
+
+Package: udoo-web-docs-neo
+Architecture: all
+Depends: ${misc:Depends}
+Description: UDOO Neo Web Docs
+ This is a static documentation precompiled by gh-pages from
+ https://github.com/UDOOboard/neo-docs
+

@@ -1,0 +1,4 @@
+version=3
+
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/udoo-web-docs-neo_$1\.tar\.gz/ \
+  https://github.com/UDOOboard/Neo-Docs/tags .*/v?(\d\S*)\.tar\.gz
